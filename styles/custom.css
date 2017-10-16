@@ -1,16 +1,28 @@
-.maincontent {
-    width: 100%;
+
+/*header*/
+.jumbotron{
+     background-image: url("../img/headerfogtree.jpeg");
+    background-color: #fff;
     height: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    margin: 0px;
+}
+/*giaa*/
+.giaa{
+    background-color: #183430;
+    margin: 0px;
+    
 }
 
-.scrollable{
-    width: 400%;
-    height: 100vh;
+.card {
+    margin: 20px;
+}
+.playlist{
+    margin: 20px;
+}
+.social{
+    text-align: center;
 }
 
-.page{
-    width: 100vw;
-    height: 100vh;
+.fa {
+    padding: 10px;
 }
