@@ -1,28 +1,304 @@
+/*typo*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-/*header*/
-.jumbotron{
-     background-image: url("../img/headerfogtree.jpeg");
-    background-color: #fff;
-    height: 100%;
-    margin: 0px;
+a{
+    font-family: 'Montserrat', sans-serif;
 }
-/*giaa*/
-.giaa{
-    background-color: #183430;
+
+
+
+
+/*HEADER
+---------------
+*/
+
+.jumbotron{
+    background-image: url("../img/headerfogtree.jpeg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     margin: 0px;
+    background-position: center center;
+}
+
+/*tekst in header*/
+
+.jumbotron a{
+    background-color: transparent;
+    border: none;
+    margin-top: 10%;
+    color: rgb(68,56,41);
+    font-weight: 900;
+}
+
+#linkinj:hover{
+    background-color: transparent;
+    color: rgb(24,52,48); 
+}
+
+
+
+/*GIAA
+------------------
+*/
+
+.giaa {
+background-color: rgb(24,52,48);
+padding-top: 100px;
+padding-bottom: 80px;
+}
+
+/*Card GIAA*/
+
+.giaainfo {
+    background-color: rgb(24,52,48);
+    border: none;
+    /*margin-top: 100px;*/
+    border-radius: 0px;
+    }
+
+.giaatekst{
+    padding: 25px 0px;
+    border: none;
+}
+
+.giaatekst ul li{
+    background-color: rgb(24,52,48);
+    border: none;
+    padding: 0px;
+    color: rgb(202,137,94);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
     
 }
 
-.card {
-    margin: 20px;
+/*playlist GIAA*/
+
+
+.playlist ul{
+    background-color: rgb(202,137,94);
+    border-radius: 0px;
+    list-style-type: none;
+    padding: 0px;
 }
-.playlist{
-    margin: 20px;
+
+.playlist li{
+    padding: 20px;
+    border-bottom: solid 1px #000;
+    color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
 }
+
+#playlistbutton{
+    background-color: rgb(202,137,94);
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 0px;
+    border: none;
+}
+
+#firstandlast{
+    border-bottom: 0px;
+}
+    
+
+@media screen and (min-width:768px){
+	#musiclist{display:block}
+}
+
+/*sociaal GIAA */
+
 .social{
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: rgb(202,137,94);
+    width: 100%;
 }
 
 .fa {
-    padding: 10px;
+    padding: 0px 40px 20px;
+}
+
+/*MACHINE HEAD
+------------------
+*/
+
+/*card MH*/
+
+.mh {
+background-color: rgb(21,17,17);
+padding-top: 100px;
+padding-bottom: 80px;
+}
+
+.mhinfo {
+    background-color: rgb(21,17,17);
+    border: none;
+    border-radius: 0px;
+    }
+
+.mhtekst{
+    padding: 25px 0px;
+    border: none;
+}
+
+.mhtekst ul li{
+    background-color: rgb(21,17,17);
+    border: none;
+    padding: 0px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    
+}
+
+/*playlist MH*/
+
+
+.playlistmh ul{
+    background-color: #FFF;
+    border-radius: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.playlistmh li{
+    padding: 20px;
+    border-bottom: solid 1px #000;
+    color: rgb(68,56,41);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+}
+
+#playlistmhbutton{
+    background-color: rgb(68,56,41);
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 0px;
+    border: none;
+}
+
+#firstandlast{
+    border-bottom: 0px;
+}
+    
+
+@media screen and (min-width:768px){
+    #musiclist{display:block}
+}
+
+/*sociaal MH */
+
+.socialmh{
+    text-align: center;
+    margin-top: 50px;
+    color:#FFF;
+    width: 100%;
+}
+
+.fa {
+    padding: 0px 40px 20px;
+}
+
+/*MONKEY3
+------------------
+*/
+
+.m3 {
+    background-color: rgb(202,137,94);
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+ /*card M3*/
+
+.m3info {
+    background-color: rgb(202,137,94);
+    border: none;
+    border-radius: 0px;
+    }
+
+.m3tekst{
+    padding: 25px 0px;
+    border: none;
+}
+
+.m3tekst ul li{
+    background-color: rgb(202,137,94);
+    border: none;
+    padding: 0px;
+    color: rgb(174,55,59);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    
+}
+
+/*playlist M3*/
+
+.playlistm3 ul{
+    background-color: rgb(174,55,59);
+    border-radius: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.playlistm3 li{
+    padding: 20px;
+    border-bottom: solid 1px #000;
+    color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+}
+
+#playlistm3button{
+    background-color: rgb(68,56,41);
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 0px;
+    border: none;
+}
+
+#firstandlast{
+    border-bottom: 0px;
+}
+    
+
+@media screen and (min-width:768px){
+    #musiclist{display:block}
+}
+
+/*sociaal M3 */
+
+.socialm3{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(174,55,59);
+    width: 100%;
+
+}
+
+.fa {
+    padding: 0px 40px 20px;
+}
+
+.footer{
+    background-color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    color: rgb(21,17,17);
+}
+
+.footer p{
+    margin: 0px;
 }
